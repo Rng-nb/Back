@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bussiness?useSSL=false
+    username: root
+    password: wyf19980715
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+
