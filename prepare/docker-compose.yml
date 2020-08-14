@@ -9,7 +9,7 @@ services:
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
         volumes:
-            - ./rslistdb.sql:/docker-entrypoint-initdb.d/dump.sql
+            - ./bussinessdb.sql:/docker-entrypoint-initdb.d/dump.sql
     phpmyadmin:
         image: phpmyadmin/phpmyadmin:4.8
         links: 
