@@ -9,6 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Repository
-@Transactional
 public interface BsInfoRepository extends CrudRepository<BsInfoDto, Integer> {
+    List<BsInfoDto> findAll();
 }

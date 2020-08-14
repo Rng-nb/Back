@@ -17,9 +17,9 @@ public class BsInfo {
     @NotNull
     private String productName;
     @NotNull
-    private float productPrice;
+    private String productPrice;
     @NotNull
-    private float productUnit;
+    private String productUnit;
     @NotNull
     private String productUrl;
 }
